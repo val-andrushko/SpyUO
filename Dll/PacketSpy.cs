@@ -198,7 +198,7 @@ namespace SpyUO
 					{
 						if ( m_DEventBuffer.dwDebugEventCode == NativeMethods.DebugEventCode.EXCEPTION_DEBUG_EVENT )
 						{
-							ulong address = (ulong)m_DEventBuffer.u.Exception.ExceptionRecord.ExceptionAddress.ToInt64();
+							uint address = (uint)m_DEventBuffer.u.Exception.ExceptionRecord.ExceptionAddress.ToInt32();
 
 							if ( address == m_Send.Address )
 							{
