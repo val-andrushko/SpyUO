@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A511349-1AF4-466B-BD0E-D8AC021D0FD8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SpyUOLib</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SpyUO</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ultima">
+      <HintPath>..\..\..\..\..\..\..\Games\SpyUO\Ultima.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressAndRegisters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ClientInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClientsConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Loot Analyzer\Item.cs" />
+    <Compile Include="Loot Analyzer\LootAnalyzer.cs" />
+    <Compile Include="Loot Analyzer\LootFilter.cs" />
+    <Compile Include="Loot Analyzer\Mobile.cs" />
+    <Compile Include="Loot Analyzer\PropertyFilter.cs" />
+    <Compile Include="NativeMethods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PacketSpy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ASCIIMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\BaseGump.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\BookHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\BookPageDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ClientQuery.cs" />
+    <Compile Include="Packets\Normal\Combat.cs" />
+    <Compile Include="Packets\Commands\CommandCastSpell.cs" />
+    <Compile Include="Packets\Normal\ContainerContent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ContainerContentUpdate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ContainerDisplay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\BuyInfo.cs" />
+    <Compile Include="Packets\Normal\NewRegion.cs" />
+    <Compile Include="Packets\Normal\SellInfo.cs" />
+    <Compile Include="Packets\Normal\DeathAnimation.cs" />
+    <Compile Include="Packets\Normal\LocalizedMessage.cs" />
+    <Compile Include="Packets\Normal\GameTime.cs" />
+    <Compile Include="Packets\Normal\HackMover.cs" />
+    <Compile Include="Packets\Normal\HardwareInfo.cs" />
+    <Compile Include="Packets\Normal\Health.cs" />
+    <Compile Include="Packets\Normal\LoginComplete.cs" />
+    <Compile Include="Packets\Normal\LoginConfirm.cs" />
+    <Compile Include="Packets\Normal\MobileName.cs" />
+    <Compile Include="Packets\Normal\MobileStat.cs" />
+    <Compile Include="Packets\Normal\Damage.cs" />
+    <Compile Include="Packets\Normal\CorpseEquip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\DoubleClick.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\GraphicalEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\Gump.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\HuedEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\LocalizedList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileAnimation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileHits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileIncoming.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileMana.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileStamina.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MobileStatusAnimationUpdate.cs" />
+    <Compile Include="Packets\Normal\NakedMobile.cs" />
+    <Compile Include="Packets\Normal\ObjectProperies.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MoveAllowed.cs" />
+    <Compile Include="Packets\Normal\OpenChat.cs" />
+    <Compile Include="Packets\Normal\PropertyListInfo.cs" />
+    <Compile Include="Packets\Normal\PackedGump.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Packet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\PacketInfoAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\PacketProp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\PacketPropAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\PacketReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ParticleEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\PingPong.cs" />
+    <Compile Include="Packets\Normal\PlayMusic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\PlaySound.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\Point3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\RemoveItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\ReqWalk.cs" />
+    <Compile Include="Packets\Normal\SetLightLevel.cs" />
+    <Compile Include="Packets\Normal\SetPersonalLight.cs" />
+    <Compile Include="Packets\Normal\UnicodeMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\UpdateAttribute.cs" />
+    <Compile Include="Packets\Normal\UpdateSkills.cs" />
+    <Compile Include="Packets\Normal\WeatherChange.cs" />
+    <Compile Include="Packets\Normal\WorldItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packets\Normal\MoveMobile.cs" />
+    <Compile Include="SystemInfo.cs" />
+    <Compile Include="Vendor Analyzer\Vendor.cs" />
+    <Compile Include="Vendor Analyzer\VendorAnalyzer.cs" />
+    <Compile Include="Vendor Analyzer\VendorItem.cs" />
+    <Compile Include="ZLib.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="zlib32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zlib64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

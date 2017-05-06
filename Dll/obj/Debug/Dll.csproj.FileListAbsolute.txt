@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\bin\Debug\zlib32.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\bin\Debug\zlib64.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\bin\Debug\SpyUOLib.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\bin\Debug\SpyUOLib.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\bin\Debug\Ultima.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\obj\Debug\SpyUOLib.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Dll\obj\Debug\SpyUOLib.pdb

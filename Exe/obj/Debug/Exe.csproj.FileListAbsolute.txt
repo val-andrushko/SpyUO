@@ -1,0 +1,44 @@
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\Exe.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.About.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.Display.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.Filter.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.LootFilterForm.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.PacketDetails.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.PropsFilter.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.SelectBook.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.SelectProcess.resources
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\Exe.csproj.GenerateResource.Cache
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\zlib32.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\zlib64.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\ReadMe.txt
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\Clients.cfg
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\Items.cfg
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\SpyUO.exe
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\SpyUO.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\SpyUOLib.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\Ultima.dll
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\bin\Debug\SpyUOLib.pdb
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.exe
+C:\Users\Gebruiker\Documents\Visual Studio 2013\Projects\SpyUO Source\Exe\obj\Debug\SpyUO.pdb
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.exe
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.pdb
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\zlib32.dll
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\zlib64.dll
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\ReadMe.txt
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\Clients.cfg
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\Items.cfg
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\SpyUO.exe
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\SpyUO.pdb
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\SpyUOLib.dll
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\Ultima.dll
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\bin\Debug\SpyUOLib.pdb
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\Exe.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.About.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.Display.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.Filter.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.LootFilterForm.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.PacketDetails.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.PropsFilter.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.SelectBook.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\SpyUO.SelectProcess.resources
+C:\Users\Gebruiker\Source\Repos\SpyUO\Exe\obj\Debug\Exe.csproj.GenerateResource.Cache
