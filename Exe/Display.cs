@@ -13,6 +13,7 @@ namespace SpyUO
 	{
 		public const string Title = "SpyUO 1.10";
 
+        [STAThread]
         public static void Main()
 		{
 			CheckForIllegalCrossThreadCalls = false;
